@@ -1,0 +1,138 @@
+body {
+    background: #C6F7AC;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+}
+::selection {
+    background: transparent;
+ }
+ ::-moz-selection {
+    background: transparent;
+ }
+
+ .GameContent {
+     position: relative;
+     top:30px;
+     display: table;
+     height: 550px;
+     border: 6px groove #5CA138;
+     border-radius: 20px;
+     margin: 0 auto;
+ }
+
+ .Professions {
+     background: #99EE6B;
+     position: relative;
+     display: table-cell;
+     width: 18%;
+     border-radius: 20px;
+ }
+
+ .Action {
+    background: rgba(131, 179, 105, 0.8);
+    position: relative;
+    display: table-cell;
+    width: 64%;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.business {
+    background: #99EE6B	;
+    text-align: right;
+    position: relative;
+    display: table-cell;
+    width: 18%;
+    border-radius: 20px;
+}
+
+.click {
+    width: 140px;
+    height: 75px;
+}
+
+.ProfessionTarget {
+    position: relative;
+    left: 10px;
+}
+
+header {
+    text-align: center;
+    background: #4D9B23;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.HeaderText {
+    position: relative;
+    bottom: 7px;
+    font-size: 20px;
+}
+
+.ProfessionBuy {
+    display: table;
+    position: relative;
+    top: 6px;
+
+}
+.ProfessionBuyButtons {
+    display: table-cell;
+}
+
+.cost {
+    display: table-cell;
+    position: relative;
+    left: 7px;
+}
+
+.inputINF {
+    position: relative;
+    display: table-cell;
+    left: 14px;
+}
+
+.BusinessBuy {
+    left: 40px;
+    position: relative;
+    display: table-cell;
+    top: 10px;
+}
+
+.BusinessName {
+    position: relative;
+    display: table-caption;
+    top: 6px;
+}
+
+.BussinesInf{
+    position: relative;
+    display: table-cell;
+    left: 15px;
+}
+
+.BusinessTarget {
+    position: relative;
+    right: 10px;
+}
+
+.Features {
+    font-size: 20px;
+}
+
+.Target {
+    font-size: 15px;
+}
+
+
+footer {
+    position: relative;
+    text-align: center;
+    background: #4D9B23;
+    border-radius: 10px;
+    border: 2px solid black;
+    top: 50px;
+    margin: 0 auto;
+    height: 60px;
+}
